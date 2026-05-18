@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git'
+                    url: 'https://github.com/logan-hue/Project1-Monitor-.git'
             }
         }
 
