@@ -32,7 +32,7 @@ pipeline {
                 sh '''
                     docker stop todo-app || true
                     docker rm todo-app || true
-                    docker run -d --name todo-app -p 3000:3000 todo-app:latest
+                    docker run -d --name todo-app -p 3001:3000 todo-app:latest
                 '''
             }
         }
